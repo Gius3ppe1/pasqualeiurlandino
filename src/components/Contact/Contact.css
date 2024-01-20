@@ -1,0 +1,116 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+    padding-top: 3rem;
+}
+
+.contact{
+    padding-top: 10%;
+}
+
+.c-left{
+    text-align: center !important;
+    padding-top: 25px;
+    color: white !important;
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.c-right .user{
+    width: 24rem;
+    height: 3rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid #dad71f;
+    border-radius: 8px;
+    font-size: 19px;
+    color: white   
+}
+
+.c-right .user:hover{
+    box-shadow: 0 0 9px #dad71f;
+}
+
+input{
+    background-color: var(--purple)
+}
+textarea{
+    height: 5rem!important;
+    background-color: var(--purple)
+}
+
+.done{
+    font-size: 19px;
+    color: green;
+    font-weight: bolder;
+}
+.not-done{
+    font-size: 19px;
+    color: red;
+    font-weight: bolder;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+.description{
+    font-size: 1.1em;
+}
+
+.maps{
+    border-radius: 10vh;
+    width: 80%;
+}
+
+.col{
+    padding-bottom: 8%;
+}
+
+
+@media (max-width: 767px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+    .c-right>form {
+        padding-top: 15%;
+    }
+
+    .maps{
+        height: 20em;
+        width: 15em;
+    }
+
+    .col{
+        padding-bottom: 15%;
+    }
+
+    .contact{
+        padding-top: 25%;
+    }
+
+}
