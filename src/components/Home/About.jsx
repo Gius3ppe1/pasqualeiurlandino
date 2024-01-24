@@ -1,10 +1,13 @@
 import React from "react";
-import { Container, Row, Card, Col } from "react-bootstrap";
-import logo from "../../assets/LogoDef2.svg";
-import pasquale from "../../assets/pasquale2.svg";
-import piccolo from "../../assets/piccolo2.svg";
-import prima from "../../assets/prima.jpg";
-import seconda from "../../assets/seconda.jpg";
+import { Container, Row, Col } from "react-bootstrap";
+import logo from "../../assets/Logo/LogoDef2.svg";
+import pasquale from "../../assets/PrimaDopo/pasquale2.svg";
+import piccolo from "../../assets/PrimaDopo/piccolo2.svg";
+import prima from "../../assets/gallery/prima.jpg";
+import seconda from "../../assets/gallery/seconda.jpg";
+import terza from "../../assets/gallery/terza.jpg";
+import quarta from "../../assets/gallery/quarta.jpg";
+import quinta from "../../assets/gallery/quinta.jpg";
 import Tilt from "react-parallax-tilt";
 import { Link } from 'react-router-dom';
 
@@ -16,6 +19,7 @@ import {
 
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import Particle from "../Particles";
 
 const images = [
   {
@@ -26,11 +30,24 @@ const images = [
     original: seconda,
     thumbnail: seconda,
   },
+  {
+    original: terza,
+    thumbnail: terza,
+  },
+  {
+    original: quarta,
+    thumbnail: quarta,
+  },
+  {
+    original: quinta,
+    thumbnail: quinta,
+  },
 ];
 
 const About = () => {
   return (
     <Container fluid className="home-about-section" id="about">
+      <Particle/>
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -42,18 +59,18 @@ const About = () => {
               e vengo da <span className="yellow"> Altamura, Bari.</span>
               <br />
               <br />
-              Molti non mi conosceranno , ma purtroppo o per fortuna  , ho un passato  da ex sovrappeso, ma grazie  proprio al mio passato mi ha portato dove sono oggi. Nel voler aiutare  le persone  a non commettere i mie stessi  sbagli,  anzi cercando di far intraprendere la strada migliore per se stessi.
+              Molti non mi conosceranno, ma purtroppo o per fortuna, ho un passato da ex sovrappeso, ma grazie  proprio al mio passato mi ha portato dove sono oggi. Nel voler aiutare  le persone  a non commettere i mie stessi  sbagli,  anzi cercando di far intraprendere la strada migliore per se stessi.
               <br />
               <br />
-              Sono un esperto certificato nel mondo del fitness , ormai la mia passione da anni, cerco di motivare e guidare le persone verso  il  raggiungimento dei loro
+              Sono un esperto certificato nel mondo del fitness, ormai la mia passione da anni, cerco di motivare e guidare le persone verso  il  raggiungimento dei loro
               <b className="yellow"> obiettivi. </b>
               <br />
               <br />
-              Attraverso programmi di allemamento <b className="yellow"> personalizzati</b>, consigli nutrizionali e sedute di personal , cercando di motivarti continuamente. Renderò il tuo percorso un'esperienza gratificante e sostenibile.
+              Attraverso programmi di allemamento <b className="yellow"> personalizzati</b>, consigli nutrizionali e sedute di personal, cercando di motivarti continuamente. Renderò il tuo percorso un'esperienza gratificante e sostenibile.
               <br />
               <br />Il mio scopo è quello di aiutarti a raggiungere i tuoi obiettivi in modo professionale.
-              Sia che tu stia cercando di perdere peso , aumentare la massa muscolare, migliorare  la tua composizione corporea,  o semplicemente  essere in forma e in salute.
-              Sono qui per guidarti verso il <b className="yellow"> successo. </b>
+              Sia che tu stia cercando di perdere peso , aumentare la massa muscolare, migliorare  la tua composizione corporea, o semplicemente  essere in forma e in salute.
+              Sono qui per guidarti verso il<b className="yellow"> successo. </b>
               <br />
               <br />
               <br />
@@ -87,6 +104,8 @@ const About = () => {
 
         <Row className="gallery">
           <h1 className= "titleG"><span className="yellow">PROGRESSI</span> E MIGLIORAMENTI</h1>
+          <p className="descp">Alcuni dei miei clienti, che con <b className="yellow">sacrificio e dedizione</b>, cercano di fare del loro meglio per essere la miglior versione di sé stessi.
+            <br/>E tu che aspetti, <b className="yellow">contattami</b> per migliorarti  e avere qualcuno al tuo fianco che ti segua passo passo</p>
           <ImageGallery
             items={images}
             showPlayButton={true}
@@ -96,7 +115,7 @@ const About = () => {
 
         <Row>
           <Col md={12} className="home-about-social">
-            <Link><h1>CONTATTAMI</h1></Link>
+            <Link to="/contact" className="link-c"><h1>CONTATTAMI</h1></Link>
             <p>
               Non esistare a <span className="yellow">contattarmi.</span>
             </p>

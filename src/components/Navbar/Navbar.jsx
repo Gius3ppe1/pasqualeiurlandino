@@ -2,14 +2,10 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../../assets/LogoDef2.svg";
+import logo from "../../assets//Logo/LogoDef2.svg";
 import { Link } from "react-router-dom";
-import {
-  AiOutlineTeam ,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineContacts
-} from "react-icons/ai";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressBook, faDesktop, faDumbbell, faHome } from "@fortawesome/free-solid-svg-icons";
 
 
 function NavBar() {
@@ -51,7 +47,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <FontAwesomeIcon icon={faHome} style={{ marginBottom: "2px" }}/> Home
               </Nav.Link>
             </Nav.Item>
             
@@ -61,10 +57,7 @@ function NavBar() {
                 to="/personaltrainer"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineTeam 
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Personal Trainer
+               <FontAwesomeIcon icon={faDumbbell}/> {" "} Personal Trainer
               </Nav.Link>
             </Nav.Item>
 
@@ -74,10 +67,7 @@ function NavBar() {
                 to="/coachingonline"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Coaching Online
+                <FontAwesomeIcon icon={faDesktop}/>{" "} Coaching Online
               </Nav.Link>
             </Nav.Item>
 
@@ -87,7 +77,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contatti
+                <FontAwesomeIcon icon={faAddressBook}/> Contatti
               </Nav.Link>
             </Nav.Item>
           </Nav>

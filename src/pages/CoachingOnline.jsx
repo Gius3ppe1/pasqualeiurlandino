@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
-import { FaCheck } from 'react-icons/fa';
-import { FaTimes } from 'react-icons/fa';
+import { FaCheck, FaTimes } from 'react-icons/fa';
+import Particle from "../components/Particles";
 
 const CoachingOnline = () => {
 
@@ -51,13 +51,39 @@ const CoachingOnline = () => {
       <FaTimes style={redStyle} /> App con video tutorial <br />
       <FaTimes style={redStyle} /> App con diario di allenamento <br />
       <FaTimes style={redStyle} /> Allenamento personalizzato <br />
+    </>
+  );
 
+  const prezzip = (
+    <>
+      1 Mese 59€ <br/>
+      3 Mesi 149€ <br/>
+      6 Mesi 279€ <br/>
+      12 mesi 499€
+    </>
+  );
+
+  const prezzib = (
+    <>
+      1 Mese 35€ <br/>
+      3 Mesi 90€ <br/>
+      6 Mesi 179€ <br/>
+      12 mesi 379€
+    </>
+  );
+
+  const prezzib2 = (
+    <>
+      1 Mese 45€ <br/>
+      3 Mesi 119€ <br/>
+      6 Mesi 240€ <br/>
     </>
   );
 
 
   return (
     <Container fluid className="project-section">
+      <Particle />
       <Container>
         <h1 className="project-heading">
           Coaching <strong className="yellow">Online </strong>
@@ -74,8 +100,9 @@ const CoachingOnline = () => {
             <ProjectCard
               isBlog={false}
               title="Coaching Online Base"
-              subtitle="Allenamento + Eventuale integrazione"
+              subtitle="Consigli Alimentari + Eventuale integrazione"
               description={base2}
+              footer={prezzib2}
             />
           </Col>
 
@@ -83,8 +110,9 @@ const CoachingOnline = () => {
             <ProjectCard
               isBlog={false}
               title="Coaching Online Medium"
-              subtitle="Alimentazione + Eventuale integrazione"
+              subtitle="Allenamento + Eventuale integrazione"
               description={base}
+              footer={prezzib}
             />
           </Col>
 
@@ -92,8 +120,9 @@ const CoachingOnline = () => {
             <ProjectCard
               isBlog={false}
               title="Coaching Online Premium"
-              subtitle="Allenamento + Alimentazione + Eventuale integrazione"
+              subtitle="Allenamento + Consigli Alimentari + Eventuale integrazione"
               description={premium}
+              /*footer={prezzip}*/
             />
           </Col>
         </Row>

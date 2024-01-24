@@ -1,14 +1,15 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import paky from '../assets/buona4.4.svg'
+import paky from '../assets/ImgPresentazione/buona4.4.svg'
 import About from '../components/Home/About';
 import Type from '../components/Home/Type';
-import Particles from 'react-tsparticles';
+import Particle from '../components/Particles';
 
 const Home = () => {
   return (
     <section>
       <Container fluid className="home-section" id="home">
+      <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">

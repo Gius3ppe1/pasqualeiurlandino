@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import './Contact.css'
+import Particle from '../Particles';
 
 const Contact = () => {
   const form = useRef();
@@ -22,8 +23,6 @@ const Contact = () => {
     if (!formData.from_name || !formData.reply_to || !formData.message) {
       setNotDone(true)
     } else {
-
-      //  Please use your own credentials from emailjs or i will recive your email
 
       emailjs
         .sendForm(
@@ -47,6 +46,7 @@ const Contact = () => {
 
   return (
     <Container className="contact">
+      <Particle/>
       <Row >
         <Col md={6} className="c-left" >
           <h1 className="yellow">Contattami</h1>

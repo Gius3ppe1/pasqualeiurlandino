@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import { FaCheck } from 'react-icons/fa';
+import Particle from "../components/Particles";
 
 const PersonalTrainer = () => {
 
   const greenStyle = { color: 'green', marginRight: '5px' };
-  const redStyle = { color: 'red', marginRight: '5px' };
 
   const one = (
     <>
@@ -20,9 +20,18 @@ const PersonalTrainer = () => {
     </>
   );
 
+  const sed = (
+    <>
+    1 Seduta 29€<br/>
+    5 Sedute 99€<br/>
+    10 Sedute 179€
+    </>
+  )
+
 
   return (
     <Container fluid className="project-section">
+      <Particle/>
       <Container>
         <h1 className="project-heading">
         <strong className="yellow">Personal </strong>Trainer
@@ -37,6 +46,7 @@ const PersonalTrainer = () => {
               title="Coaching Live"
               subtitle="One to One"
               description={one}
+              /*footer={sed}*/
             />
           </Col>
         </Row>

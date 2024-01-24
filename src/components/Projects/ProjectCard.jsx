@@ -36,6 +36,7 @@ const ProjectCard = (props) => {
         <Card.Text style={{ textAlign: "justify", fontSize:"15px" }}>
           {props.description}
         </Card.Text>
+        {/*<Card.Footer style={{fontSize: "20px", color: "#efc75e"}}>{props.footer}</Card.Footer>*/}
         {/*<Button
           variant="primary"
           href={props.ghLink}

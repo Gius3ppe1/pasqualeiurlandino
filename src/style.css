@@ -49,7 +49,16 @@ html {
     overflow: hidden;
     height: 100vh;
   }
+
+
+  #tsparticles{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
   
+
   /* --------- */
   /*Scrollbar   */
   /* --------- */
@@ -102,8 +111,8 @@ html {
   .navbar-toggler span {
     display: block !important;
     background-color: black !important;
-    height: 4px !important;
-    width: 27px !important;
+    height: 4px;
+    width: 27px;
     margin-top: 5px !important;
     margin-bottom: 5px !important;
     transform: rotate(0deg) !important;
@@ -157,14 +166,19 @@ html {
       padding-top: 10%;
       align-items: center;
     }
+
+    .navbar-toggler span{
+      height: 3px ;
+      width: 19px;
+    }
   }
   .navbar-brand {
     color: rgb(250, 250, 250) !important;
   }
   
   .logo {
-    height: 4em !important;
-    width: 4em !important;
+    height: 4em;
+    width: 4em;
   }
   
   .navbar-nav .nav-link {
@@ -181,6 +195,11 @@ html {
     .nav-link {
       padding: 0.7rem 1rem !important;
     }
+
+    .logo {
+      width: 3em;
+    }
+  
   }
   
   .navbar-nav .nav-item {
@@ -372,7 +391,6 @@ html {
     position: relative;
     padding-bottom: 70px !important;
     padding-top: 70px !important;
-    background-image: linear-gradient(to left, #323234, #0f0f0f);
   }
 
   .titleI{
@@ -390,6 +408,13 @@ html {
     padding-top: 50px;
     font-size: 1.1em !important;
     text-align: left;
+  }
+
+  .descp{
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    font-size: 1.1em
   }
 
   .home-about-social {
@@ -454,6 +479,16 @@ html {
     color: #efc75e !important;
   }
 
+  .link-c {
+    text-decoration: none;
+    color: #efc75e;
+  }
+
+  .link-c:hover {
+    text-decoration: none;
+    color: #d28a31;
+  }
+
   @media (max-width: 767px) {
     .titleI{
       font-size: 2.2em;
@@ -461,6 +496,10 @@ html {
 
     .home-about-social {
       padding-top: 20%;
+    }
+
+    .descp{
+      padding-top: 4%
     }
   }
 
@@ -585,7 +624,6 @@ html {
 
 .titleG{
   padding-top: 12%;
-  padding-bottom: 5%;
   color: white;
   font-size: 2.6em;
 }
@@ -681,7 +719,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: linear-gradient(to left, #323234, #0f0f0f);
+
 }
 
 .project-card {
@@ -706,37 +744,6 @@ html {
   overflow: hidden !important;
   /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
   box-shadow: 0 0px 5px 3px #d28a31 !important;
-}
-
-.blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
-}
-
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
-}
-
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.blog-link:hover {
-  cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
 }
 
 .card-img-top {
@@ -776,4 +783,10 @@ html {
   font-size: 2.5em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+}
+
+@media (max-width: 767px) {
+  .project-heading{
+    padding-bottom: 8%;
+  }
 }
