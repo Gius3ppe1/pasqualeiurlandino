@@ -20,6 +20,7 @@ const CoachingOnline = () => {
       <FaCheck style={greenStyle} /> Assistenza in chat <br />
       <FaCheck style={greenStyle} /> App con video tutorial <br />
       <FaCheck style={greenStyle} /> App con diario di allenamento <br />
+      <FaCheck style={greenStyle} /> App per monitorare i progressi <br />
 
     </>
   );
@@ -34,6 +35,7 @@ const CoachingOnline = () => {
       <FaCheck style={greenStyle} /> Assistenza in chat <br />
       <FaCheck style={greenStyle} /> App con video tutorial <br />
       <FaCheck style={greenStyle} /> App con diario di allenamento <br />
+      <FaCheck style={greenStyle} /> App per monitorare i progressi <br />
       <FaTimes style={redStyle} /> Consigli Alimentari <br />
 
     </>
@@ -54,32 +56,6 @@ const CoachingOnline = () => {
     </>
   );
 
-  const prezzip = (
-    <>
-      1 Mese 59€ <br/>
-      3 Mesi 149€ <br/>
-      6 Mesi 279€ <br/>
-      12 mesi 499€
-    </>
-  );
-
-  const prezzib = (
-    <>
-      1 Mese 35€ <br/>
-      3 Mesi 90€ <br/>
-      6 Mesi 179€ <br/>
-      12 mesi 379€
-    </>
-  );
-
-  const prezzib2 = (
-    <>
-      1 Mese 45€ <br/>
-      3 Mesi 119€ <br/>
-      6 Mesi 240€ <br/>
-    </>
-  );
-
 
   return (
     <Container fluid className="project-section">
@@ -89,10 +65,10 @@ const CoachingOnline = () => {
           Coaching <strong className="yellow">Online </strong>
         </h1>
         <p style={{ color: "white", fontSize: "18px", paddingTop: "2%"}}>
-          Il mio obiettivo è fornirti un allenamento su misura, adattato alle tue esigenze e obiettivi specifici. Avrai accesso a un'app dedicata, arricchita da video tutorial degli esercizi e una chat integrata per una comunicazione costante.
-          La mia missione è aiutarti a raggiungere i tuoi obiettivi di fitness e migliorare la tua forma fisica. Creerò una strategia completa che include allenamento, nutrizione e, se necessario, integrazione, il tutto personalizzato alle tue esigenze. L'app dedicata con diario di allenamento e chat integrata ti garantirà un'esperienza altamente personalizzata.
+          Benvenuto nella sezione dedicata al coaching online, dove il cambiamento positivo è a portata di clic!<br/> Offro tre pacchetti su misura - <span className="yellow">Base, Medium e Premium</span> - progettati per adattarsi alle tue esigenze e al tuo stile di vita.
+          <br/>Avrai accesso a un'app dedicata, arricchita da video tutorial degli esercizi e una chat integrata per una comunicazione costante.
+          Creerò una strategia completa che include allenamento, nutrizione e, se necessario, integrazione. L'app dedicata con diario di allenamento e chat integrata ti garantirà un'esperienza altamente personalizzata.
           <br/><br/>
-          Per quanto riguarda la nutrizione, creerò un piano alimentare su misura, eventualmente integrato, soddisfacendo le tue esigenze. Utilizzeremo un'app di diario alimentare o invierò consigli tramite WhatsApp, garantendoti assistenza continua attraverso la chat.
           Il nostro approccio completo e personalizzato ti accompagnerà in tutto il percorso di raggiungimento dei tuoi obiettivi, fornendoti le risorse e il supporto necessari per ottenere i migliori risultati.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -102,7 +78,6 @@ const CoachingOnline = () => {
               title="Coaching Online Base"
               subtitle="Consigli Alimentari + Eventuale integrazione"
               description={base2}
-              footer={prezzib2}
             />
           </Col>
 
@@ -112,7 +87,6 @@ const CoachingOnline = () => {
               title="Coaching Online Medium"
               subtitle="Allenamento + Eventuale integrazione"
               description={base}
-              footer={prezzib}
             />
           </Col>
 
@@ -122,7 +96,6 @@ const CoachingOnline = () => {
               title="Coaching Online Premium"
               subtitle="Allenamento + Consigli Alimentari + Eventuale integrazione"
               description={premium}
-              /*footer={prezzip}*/
             />
           </Col>
         </Row>

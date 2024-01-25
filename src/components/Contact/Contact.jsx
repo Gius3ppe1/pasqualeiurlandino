@@ -50,7 +50,7 @@ const Contact = () => {
       <Row >
         <Col md={6} className="c-left" >
           <h1 className="yellow">Contattami</h1>
-          <p className="description">Se sei pronto per iniziare il tuo viaggio verso uno stile di vita più sano, contattami oggi stesso.<br/>
+          <p className="description">Se sei pronto per iniziare il tuo viaggio verso uno stile di vita più sano, contattami al più presto.<br/>
             Sarò entusiasta di essere il tuo partner di fiducia nel raggiungere i tuoi obiettivi di fitness e benessere.</p>
         </Col>
         <Col md={6} className="c-right">

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import paky from '../assets/ImgPresentazione/buona4.4.svg'
+import paky from '../assets/ImgPresentazione/definitiva.svg'
 import About from '../components/Home/About';
 import Type from '../components/Home/Type';
 import Particle from '../components/Particles';
@@ -34,7 +34,7 @@ const Home = () => {
                 src={paky}
                 alt="home pic"
                 className="img-pasquale"
-                style={{ maxHeight: "550px" }}
+                style={{ maxHeight: "650px" }}
               />
             </Col>
           </Row>

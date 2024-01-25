@@ -59,18 +59,16 @@ const About = () => {
               e vengo da <span className="yellow"> Altamura, Bari.</span>
               <br />
               <br />
-              Molti non mi conosceranno, ma purtroppo o per fortuna, ho un passato da ex sovrappeso, ma grazie  proprio al mio passato mi ha portato dove sono oggi. Nel voler aiutare  le persone  a non commettere i mie stessi  sbagli,  anzi cercando di far intraprendere la strada migliore per se stessi.
+              Molti non mi conosceranno, ma purtroppo o per fortuna, ho un passato da ex sovrappeso, ma è grazie al mio passato mi ha portato dove sono oggi. Al fine di voler aiutare le persone a non commettere i mie stessi sbagli, cercando di far intraprendere la strada migliore per loro stessi.
               <br />
               <br />
-              Sono un esperto certificato nel mondo del fitness, ormai la mia passione da anni, cerco di motivare e guidare le persone verso  il  raggiungimento dei loro
+              In qualità di esperto certificato nel mondo del fitness, la mia passione da anni, cerco di motivare e guidare le persone verso il raggiungimento dei loro
               <b className="yellow"> obiettivi. </b>
               <br />
               <br />
-              Attraverso programmi di allemamento <b className="yellow"> personalizzati</b>, consigli nutrizionali e sedute di personal, cercando di motivarti continuamente. Renderò il tuo percorso un'esperienza gratificante e sostenibile.
+              Attraverso programmi di allenamento <b className="yellow"> personalizzati</b>, consigli nutrizionali e sedute di personal, ti motiverò continuamente e eenderò il tuo percorso un'esperienza ricca di risultati.
               <br />
-              <br />Il mio scopo è quello di aiutarti a raggiungere i tuoi obiettivi in modo professionale.
-              Sia che tu stia cercando di perdere peso , aumentare la massa muscolare, migliorare  la tua composizione corporea, o semplicemente  essere in forma e in salute.
-              Sono qui per guidarti verso il<b className="yellow"> successo. </b>
+              <br />Il mio scopo è quello di aiutarti a raggiungere i tupi obiettivi in modo professionale e guidarti verso il<b className="yellow"> successo. </b>
               <br />
               <br />
               <br />
@@ -88,13 +86,13 @@ const About = () => {
           <div className="wrapper">
 
             <div className="item">
-              <div className="polaroid"><img src={piccolo} />
+              <div className="polaroid"><img src={piccolo} alt="prima"/>
                 <div className="caption">PRIMA</div>
               </div>
             </div>
 
             <div className="item">
-              <div className="polaroid"><img src={pasquale} />
+              <div className="polaroid"><img src={pasquale} alt="dopo"/>
                 <div className="caption">DOPO</div>
               </div>
             </div>
@@ -105,7 +103,7 @@ const About = () => {
         <Row className="gallery">
           <h1 className= "titleG"><span className="yellow">PROGRESSI</span> E MIGLIORAMENTI</h1>
           <p className="descp">Alcuni dei miei clienti, che con <b className="yellow">sacrificio e dedizione</b>, cercano di fare del loro meglio per essere la miglior versione di sé stessi.
-            <br/>E tu che aspetti, <b className="yellow">contattami</b> per migliorarti  e avere qualcuno al tuo fianco che ti segua passo passo</p>
+            <br/>E tu che aspetti? <b className="yellow">Contattami</b> per migliorarti e avere qualcuno al tuo fianco che ti segua costantemente</p>
           <ImageGallery
             items={images}
             showPlayButton={true}
@@ -117,7 +115,7 @@ const About = () => {
           <Col md={12} className="home-about-social">
             <Link to="/contact" className="link-c"><h1>CONTATTAMI</h1></Link>
             <p>
-              Non esistare a <span className="yellow">contattarmi.</span>
+              Inizia questa nuova avventura con me, non te ne <span className="yellow">pentirai!</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

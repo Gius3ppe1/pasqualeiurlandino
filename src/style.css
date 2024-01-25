@@ -155,8 +155,8 @@ html {
   
   @media (max-width: 767px) {
     .navbar {
-      padding: 0rem 2rem !important;
-      font-size: 1.4rem !important;
+      padding: 0.5rem 2rem !important;
+      font-size: 1.2rem !important;
       background-color: #efc75e !important;
     }
     .navbar-nav .nav-item a::after {
@@ -193,7 +193,7 @@ html {
   
   @media (max-width: 767px) {
     .nav-link {
-      padding: 0.7rem 1rem !important;
+      padding: 0.4rem 0.4rem !important;
     }
 
     .logo {
@@ -732,17 +732,16 @@ html {
 
 .project-card-view {
   box-shadow: 5px 5px 5px 0 #efc75e !important;
-  /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
   color: white !important;
   background-color: #44404b !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
   box-shadow: 0 0px 5px 3px #d28a31 !important;
 }
 
