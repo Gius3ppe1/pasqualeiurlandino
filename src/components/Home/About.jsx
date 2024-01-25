@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../assets/Logo/LogoDef2.svg";
-import pasquale from "../../assets/PrimaDopo/pasquale2.svg";
-import piccolo from "../../assets/PrimaDopo/piccolo2.svg";
+import pasquale from "../../assets/PrimaDopo/pasquale2.jpg";
+import piccolo from "../../assets/PrimaDopo/piccolo.png";
 import prima from "../../assets/gallery/prima.jpg";
 import seconda from "../../assets/gallery/seconda.jpg";
 import terza from "../../assets/gallery/terza.jpg";

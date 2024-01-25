@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import paky from '../assets/ImgPresentazione/definitiva.svg'
+import paky from '../assets/ImgPresentazione/definitiva.png'
 import About from '../components/Home/About';
 import Type from '../components/Home/Type';
 import Particle from '../components/Particles';
@@ -14,7 +14,7 @@ const Home = () => {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Ciao!{" "}
+                Ciao!
                 <span className="wave" role="img" aria-labelledby="wave">
                 </span>
               </h1>
