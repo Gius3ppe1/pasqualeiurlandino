@@ -71,7 +71,7 @@ const CoachingOnline = () => {
           <br/><br/>
           Il nostro approccio completo e personalizzato ti accompagnerà in tutto il percorso di raggiungimento dei tuoi obiettivi, fornendoti le risorse e il supporto necessari per ottenere i migliori risultati.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px"}}>
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}

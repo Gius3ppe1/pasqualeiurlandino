@@ -114,3 +114,18 @@ textarea{
     }
 
 }
+
+@media (min-width: 770px) and (max-width: 994px){
+    .c-left{
+        width: 60% !important;
+    }
+
+    .c-right{
+        padding-top: 5%;
+        width: 60% !important;
+    }
+
+    .r-contact{
+        justify-content: center !important;
+    }
+}

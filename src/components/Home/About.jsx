@@ -55,8 +55,7 @@ const About = () => {
               PICCOLA <span className="yellow"> INTRODUZIONE </span> DI ME STESSO
             </h1>
             <p className="home-about-body">
-              Ciao, mi chiamo <b className="yellow">Pasquale Iurlandino </b>
-              e vengo da <span className="yellow"> Altamura, Bari.</span>
+              Ciao, mi chiamo <b className="yellow">Pasquale Iurlandino </b>e vengo da <span className="yellow"> Altamura, Bari.</span>
               <br />
               <br />
               Molti non mi conosceranno, ma purtroppo o per fortuna, ho un passato da ex sovrappeso, ma è grazie al mio passato mi ha portato dove sono oggi. Al fine di voler aiutare le persone a non commettere i mie stessi sbagli, cercando di far intraprendere la strada migliore per loro stessi.

@@ -97,7 +97,7 @@ html {
   .navbar {
     position: fixed !important;
     transition: all 0.3s ease-out 0s !important;
-    padding: 0 2rem !important;
+    padding: 0.2rem !important;
     font-size: 1.2rem !important;
     background-image: linear-gradient(to right, #d28a31, #efc75e, #d28a31);
   }
@@ -168,8 +168,8 @@ html {
     }
 
     .navbar-toggler span{
-      height: 3px ;
-      width: 19px;
+      height: 2px ;
+      width: 15px;
     }
   }
   .navbar-brand {
@@ -197,7 +197,7 @@ html {
     }
 
     .logo {
-      width: 3em;
+      width: 2.6em;
     }
   
   }
@@ -230,6 +230,12 @@ html {
   
   .navbar-nav .nav-item a:hover::after {
     width: 100%;
+  }
+
+  @media (min-width: 768px) and (max-width: 992px){
+    .navbar-nav .nav-item {
+      margin-left: 38px;
+    }
   }
   
   /* --------- */
@@ -489,6 +495,7 @@ html {
     color: #d28a31;
   }
 
+
   @media (max-width: 767px) {
     .titleI{
       font-size: 2.2em;
@@ -719,7 +726,6 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-
 }
 
 .project-card {
@@ -735,12 +741,12 @@ html {
   color: white !important;
   background-color: #44404b !important;
   opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
+  transition: all 0.4s ease 0s !important;
   height: 100% !important;
 }
 
 .project-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.10) !important;
   overflow: hidden !important;
   box-shadow: 0 0px 5px 3px #d28a31 !important;
 }
@@ -749,12 +755,6 @@ html {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
-}
-
-.blog-img {
-  padding: 0px !important;
-  opacity: 0.8 !important;
-  border-radius: 0px !important;
 }
 
 .btn-primary {
@@ -787,5 +787,11 @@ html {
 @media (max-width: 767px) {
   .project-heading{
     padding-bottom: 8%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1196px){
+  .project-card{
+    width: 50% !important;
   }
 }

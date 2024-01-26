@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <Container className="contact">
       <Particle/>
-      <Row >
+      <Row className='r-contact'>
         <Col md={6} className="c-left" >
           <h1 className="yellow">Contattami</h1>
           <p className="description">Se sei pronto per iniziare il tuo viaggio verso uno stile di vita più sano, contattami al più presto.<br/>
