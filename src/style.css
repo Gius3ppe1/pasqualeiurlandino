@@ -236,6 +236,10 @@ html {
     .navbar-nav .nav-item {
       margin-left: 38px;
     }
+
+    .logo{
+      width: 7em;
+    }
   }
   
   /* --------- */
@@ -313,7 +317,6 @@ html {
   .Typewriter__wrapper {
     font-size: 2.2em !important;
     color: #efc75e!important;
-    /* color: #be6adf !important; */
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
@@ -350,13 +353,13 @@ html {
   
   .myAvtar {
     justify-content: center !important;
-    padding-top: 13em !important;
+    padding-top: 8em !important;
   }
   
   
   @media (max-width: 767px) {
     .myAvtar {
-      padding-top: 2em !important;
+      padding-top: 0em !important;
       padding-bottom: 3em !important;
     }
 
@@ -421,6 +424,19 @@ html {
     padding-top: 1%;
     padding-bottom: 3%;
     font-size: 1.1em
+  }
+
+  @media (min-width: 768px) and (max-width: 992px){
+
+    .r-about{
+      justify-content: center;
+    }
+    
+    .myAvtar{
+      width: 50% !important;
+      padding-top: 0 !important;
+      padding-bottom: 5%;
+    }
   }
 
   .home-about-social {
@@ -516,6 +532,11 @@ html {
 
 * {
   box-sizing: border-box;
+}
+
+.titleE{
+  color: white;
+  padding-top: 5%;
 }
 
 .wrapper {
@@ -618,7 +639,18 @@ html {
 
 @media (max-width: 768px) {
   .item {
-    width: 100%;
+    width: 90%;
+  }
+
+  .titleE{
+    font-size: 2.2em;
+    padding-top: 10%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .item {
+    width: 40%;
   }
 }
 
@@ -656,6 +688,7 @@ html {
     padding-top: 2px !important;
     padding-bottom: px !important ;
   }
+
   .footer-copywright {
     display: flex;
     text-align: center !important;
@@ -696,9 +729,6 @@ html {
     padding: 0 !important;
   }
   
-  .blockquote-footer {
-    color: #a588c0 !important;
-  }
   /* --------- */
   /* About */
   /* --------- */
@@ -790,7 +820,7 @@ html {
   }
 }
 
-@media (min-width: 767px) and (max-width: 1196px){
+@media (min-width: 768px) and (max-width: 1196px){
   .project-card{
     width: 50% !important;
   }

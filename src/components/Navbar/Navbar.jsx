@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../../assets//Logo/LogoDef2.svg";
+import logo from "../../assets//Logo/LogoNavbar.svg";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook, faDesktop, faDumbbell, faHome } from "@fortawesome/free-solid-svg-icons";

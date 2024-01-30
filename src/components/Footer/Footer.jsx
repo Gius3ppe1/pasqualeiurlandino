@@ -7,11 +7,13 @@ import {
 } from "react-icons/ai";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
     return (
       <Container fluid className="footer">
         <Row>
           <Col md="4" className="footer-copywright">
-          <span>Copyright 2024 © Giuseppe Moramarco, Pasquale Iurlandino</span>
+          <span>Copyright {currentYear} © Giuseppe Moramarco, Pasquale Iurlandino</span>
           </Col>
           <Col md="4" className="footer-copywright">
             <span>Svilippato da Giuseppe Moramarco</span>
