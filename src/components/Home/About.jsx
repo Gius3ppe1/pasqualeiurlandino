@@ -58,7 +58,7 @@ const About = () => {
               Ciao, mi chiamo <b className="yellow">Pasquale Iurlandino </b>e vengo da <span className="yellow"> Altamura, Bari.</span>
               <br />
               <br />
-              Molti non mi conosceranno, ma purtroppo o per fortuna, ho un passato da ex sovrappeso, ma grazie al mio passato mi ha portato dove sono oggi. Al fine di voler aiutare le persone a non commettere i mie stessi sbagli, cercando di far intraprendere la strada migliore per loro stessi.
+              Molti non mi conosceranno, ma purtroppo o per fortuna, ho un passato da ex sovrappeso, ma grazie al mio passato mi ha portato dove sono oggi. Al fine di voler aiutare le persone a non commettere i mie stessi sbagli, cerco di far intraprendere la strada migliore per loro stessi.
               <br />
               <br />
               In qualità di esperto certificato nel mondo del fitness, la mia passione da anni, cerco di motivare e guidare le persone verso il raggiungimento dei loro
@@ -67,7 +67,7 @@ const About = () => {
               <br />
               Attraverso programmi di allenamento <b className="yellow"> personalizzati</b>, consigli nutrizionali e sedute di personal, ti motiverò continuamente e renderò il tuo percorso un'esperienza ricca di risultati.
               <br />
-              <br />Il mio scopo è quello di aiutarti a raggiungere i tupi obiettivi in modo professionale e guidarti verso il<b className="yellow"> successo. </b>
+              <br />Il mio scopo è quello di aiutarti a raggiungere i tuoi obiettivi in modo professionale e guidarti verso il<b className="yellow"> successo. </b>
               <br />
               <br />
               <br />

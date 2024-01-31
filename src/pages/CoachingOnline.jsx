@@ -69,7 +69,7 @@ const CoachingOnline = () => {
           <br/>Avrai accesso a un'app dedicata, arricchita da video tutorial degli esercizi e una chat integrata per una comunicazione costante.
           Creerò una strategia completa che include allenamento, nutrizione e, se necessario, integrazione. L'app dedicata con diario di allenamento e chat integrata ti garantirà un'esperienza altamente personalizzata.
           <br/><br/>
-          Il nostro approccio completo e personalizzato ti accompagnerà in tutto il percorso di raggiungimento dei tuoi obiettivi, fornendoti le risorse e il supporto necessari per ottenere i migliori risultati.
+          Il nostro approccio completo e personalizzato ti accompagnerà durante tutto il percorso di raggiungimento dei tuoi obiettivi, fornendoti le risorse e il supporto necessari per ottenere i migliori risultati.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px"}}>
           <Col md={4} className="project-card">
