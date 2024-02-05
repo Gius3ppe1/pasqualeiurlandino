@@ -14,9 +14,7 @@ const Home = () => {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Ciao!
-                <span className="wave" role="img" aria-labelledby="wave">
-                </span>
+                Ciao!<span className="wave" role="img" aria-labelledby="wave"></span>
               </h1>
 
               <h1 className="heading-name">
@@ -28,7 +26,7 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} className="col-img" style={{ paddingBottom: 20 }}>
               <img
                 src={paky}
                 alt="home pic"

@@ -6,21 +6,21 @@ import Modal from 'react-bootstrap/Modal';
 import './Contact.css';
 import Particle from '../Particles';
 
-const CustomModal = ({ show, handleClose, message, title}) => {
+const CustomModal = ({ show, handleClose, message, title }) => {
   return (
     <Modal show={show} onHide={handleClose} className="custom-modal">
       <div className="custom-modal-content">
-      <Modal.Header closeButton className='custom-modal-header'>
-        <Modal.Title className="custom-modal-title">{title}</Modal.Title>
-      </Modal.Header>
-      <Modal.Body className="custom-modal-body">
-        <p>{message}</p>
-      </Modal.Body>
-      <Modal.Footer className="custom-modal-footer">
-        <Button variant="secondary" onClick={handleClose}>
-          Chiudi
-        </Button>
-      </Modal.Footer>
+        <Modal.Header closeButton className='custom-modal-header'>
+          <Modal.Title className="custom-modal-title">{title}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body className="custom-modal-body">
+          <p>{message}</p>
+        </Modal.Body>
+        <Modal.Footer className="custom-modal-footer">
+          <Button variant="secondary" onClick={handleClose}>
+            Chiudi
+          </Button>
+        </Modal.Footer>
       </div>
     </Modal>
   );
@@ -74,7 +74,7 @@ const Contact = () => {
       <Row className='r-contact'>
         <Col md={6} className="c-left" >
           <h1 className="yellow">Contattami</h1>
-          <p className="description">Se sei pronto per iniziare il tuo viaggio verso uno stile di vita più sano, contattami al più presto.<br/>
+          <p className="description">Se sei pronto per iniziare il tuo viaggio verso uno stile di vita più sano, contattami al più presto.<br />
             Sarò entusiasta di essere il tuo partner di fiducia nel raggiungere i tuoi obiettivi di fitness e benessere.</p>
         </Col>
         <Col md={6} className="c-right">
@@ -85,15 +85,15 @@ const Contact = () => {
             <textarea name="message" className="user" placeholder="Messaggio" onChange={handleChange} />
             <Button type="submit" className="button" disabled={done}>Invia</Button>
           </form>
-          <CustomModal show={showNotDonePopup} handleClose={handleCloseNotDone} message="Per favore, riempi tutti i campi!" title="Attenzione!"/>
-          <CustomModal show={showDonePopup} handleClose={handleCloseDone} message="Grazie per avermi contattato! Ti risponderò al più presto." title="Perfetto!"/>
+          <CustomModal show={showNotDonePopup} handleClose={handleCloseNotDone} message="Per favore, riempi tutti i campi!" title="Attenzione!" />
+          <CustomModal show={showDonePopup} handleClose={handleCloseDone} message="Grazie per avermi contattato! Ti risponderò al più presto." title="Perfetto!" />
         </Col>
       </Row>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Row className='r-maps'>
         <Col className='c-maps'>
           <iframe
@@ -107,6 +107,7 @@ const Contact = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
+          
         </Col>
       </Row>
     </Container>

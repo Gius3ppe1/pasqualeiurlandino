@@ -135,12 +135,12 @@ textarea{
     display: flex !important;
     align-items: center;
     justify-content: center;
-    border: none;  /* Rimuovi il bordo predefinito */
+    border: none;
   }
   
   .custom-modal-content {
     border-radius: 3%;
-    border: none;  /* Rimuovi il bordo predefinito */
+    border: none;
   }
 
   .custom-modal-header{

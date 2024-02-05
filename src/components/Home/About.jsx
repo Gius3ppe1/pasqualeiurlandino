@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../assets/Logo/LogoDefinitivo2.svg";
 import pasquale from "../../assets/PrimaDopo/pasquale2.jpg";
-import piccolo from "../../assets/PrimaDopo/piccolo.png";
+import piccolo from "../../assets/PrimaDopo/piccolo.jpg";
 import prima from "../../assets/gallery/prima.jpg";
 import seconda from "../../assets/gallery/seconda.jpg";
 import terza from "../../assets/gallery/terza.jpg";
@@ -111,6 +111,15 @@ const About = () => {
             showPlayButton={true}
             showFullscreenButton={false}
           />;
+        </Row>
+
+        <Row className="switch">
+          <p className="switch-p">Clicca qui per maggiori informazioni</p><br/>
+          <div className="links-container">
+          <Link to="/personaltrainer" className="switch-link">Personal Trainer</Link>
+          <span className="link-space"></span>
+          <Link to="/coachingonline" className="switch-link">Coaching Online</Link>
+          </div>
         </Row>
 
         <Row>
