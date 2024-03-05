@@ -8,6 +8,9 @@ import seconda from "../../assets/gallery/seconda.jpg";
 import terza from "../../assets/gallery/terza.jpg";
 import quarta from "../../assets/gallery/quarta.jpg";
 import quinta from "../../assets/gallery/quinta.jpg";
+import sesta from "../../assets/gallery/sesta.jpg";
+import settima from "../../assets/gallery/settima.jpg";
+import ottava from "../../assets/gallery/ottava.jpg";
 import Tilt from "react-parallax-tilt";
 import { Link } from 'react-router-dom';
 
@@ -41,6 +44,15 @@ const images = [
   {
     original: quinta,
     thumbnail: quinta,
+  },
+  {
+    original: sesta,
+  },
+  {
+    original: settima,
+  },
+  {
+    original: ottava,
   },
 ];
 
@@ -110,6 +122,8 @@ const About = () => {
             items={images}
             showPlayButton={true}
             showFullscreenButton={false}
+            showIndex={true}
+            autoPlay={true}
           />;
         </Row>
 
