@@ -11,6 +11,12 @@ import quinta from "../../assets/gallery/quinta.jpg";
 import sesta from "../../assets/gallery/sesta.jpg";
 import settima from "../../assets/gallery/settima.jpg";
 import ottava from "../../assets/gallery/ottava.jpg";
+import nona from "../../assets/gallery/nona.jpg";
+import decima from "../../assets/gallery/decima.jpg";
+import undicesima from "../../assets/gallery/undicesima.jpg";
+import dodicesima from "../../assets/gallery/dodicesima.jpg";
+import tredicesima from "../../assets/gallery/tredicesima.jpg";
+import quattordicesima from "../../assets/gallery/quattordicesima.jpg";
 import Tilt from "react-parallax-tilt";
 import { Link } from 'react-router-dom';
 
@@ -53,6 +59,24 @@ const images = [
   },
   {
     original: ottava,
+  },
+  {
+    original: nona,
+  },
+  {
+    original: decima,
+  },
+  {
+    original: undicesima,
+  },
+  {
+    original: dodicesima,
+  },
+  {
+    original: tredicesima,
+  },
+  {
+    original: quattordicesima,
   },
 ];
 
