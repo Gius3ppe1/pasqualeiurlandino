@@ -17,6 +17,9 @@ import undicesima from "../../assets/gallery/undicesima.jpg";
 import dodicesima from "../../assets/gallery/dodicesima.jpg";
 import tredicesima from "../../assets/gallery/tredicesima.jpg";
 import quattordicesima from "../../assets/gallery/quattordicesima.jpg";
+import quindicesima from "../../assets/gallery/15.jpg";
+import sedicesima from "../../assets/gallery/16.jpg";
+import diciasettesima from "../../assets/gallery/17.jpg";
 import Tilt from "react-parallax-tilt";
 import { Link } from 'react-router-dom';
 
@@ -77,6 +80,15 @@ const images = [
   },
   {
     original: quattordicesima,
+  },
+  {
+    original: quindicesima,
+  },
+  {
+    original: sedicesima,
+  },
+  {
+    original: diciasettesima,
   },
 ];
 
