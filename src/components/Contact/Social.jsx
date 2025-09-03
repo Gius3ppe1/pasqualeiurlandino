@@ -21,7 +21,7 @@ const Social = () => {
                 <ul className="contact-social-links">
                   <li className="contact-icons">
                     <a
-                      href="https://api.whatsapp.com/send?phone=+393935730196&text=Ciao Pasquale, vorrei un informazione"
+                      href="https://api.whatsapp.com/send?phone=+393202256455&text=Ciao Pasquale, vorrei un informazione"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"

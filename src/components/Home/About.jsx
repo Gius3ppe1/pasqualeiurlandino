@@ -1,25 +1,23 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../assets/Logo/LogoDefinitivo2.svg";
-import pasquale from "../../assets/PrimaDopo/pasquale2.jpg";
-import piccolo from "../../assets/PrimaDopo/piccolo.jpg";
-import prima from "../../assets/gallery/prima.jpg";
-import seconda from "../../assets/gallery/seconda.jpg";
-import terza from "../../assets/gallery/terza.jpg";
-import quarta from "../../assets/gallery/quarta.jpg";
-import quinta from "../../assets/gallery/quinta.jpg";
-import sesta from "../../assets/gallery/sesta.jpg";
-import settima from "../../assets/gallery/settima.jpg";
-import ottava from "../../assets/gallery/ottava.jpg";
-import nona from "../../assets/gallery/nona.jpg";
-import decima from "../../assets/gallery/decima.jpg";
-import undicesima from "../../assets/gallery/undicesima.jpg";
-import dodicesima from "../../assets/gallery/dodicesima.jpg";
-import tredicesima from "../../assets/gallery/tredicesima.jpg";
-import quattordicesima from "../../assets/gallery/quattordicesima.jpg";
+import pasquale from "../../assets/PrimaDopo/pasquale3.jpg";
+import piccolo from "../../assets/PrimaDopo/piccolo2.jpg";
+import prima from "../../assets/gallery/1.jpg";
+import seconda from "../../assets/gallery/2.jpg";
+import terza from "../../assets/gallery/3.jpg";
+import quarta from "../../assets/gallery/4.jpg";
+import quinta from "../../assets/gallery/5.jpg";
+import sesta from "../../assets/gallery/6.jpg";
+import settima from "../../assets/gallery/7.jpg";
+import ottava from "../../assets/gallery/8.jpg";
+import nona from "../../assets/gallery/9.jpg";
+import decima from "../../assets/gallery/10.jpg";
+import undicesima from "../../assets/gallery/11.jpg";
+import dodicesima from "../../assets/gallery/12.jpg";
+import tredicesima from "../../assets/gallery/13.jpg";
+import quattordicesima from "../../assets/gallery/14.jpg";
 import quindicesima from "../../assets/gallery/15.jpg";
-import sedicesima from "../../assets/gallery/16.jpg";
-import diciasettesima from "../../assets/gallery/17.jpg";
 import Tilt from "react-parallax-tilt";
 import { Link } from 'react-router-dom';
 
@@ -84,12 +82,6 @@ const images = [
   {
     original: quindicesima,
   },
-  {
-    original: sedicesima,
-  },
-  {
-    original: diciasettesima,
-  },
 ];
 
 const About = () => {
@@ -153,7 +145,7 @@ const About = () => {
         <Row className="gallery">
           <h1 className= "titleG"><span className="yellow">PROGRESSI</span> E MIGLIORAMENTI</h1>
           <p className="descp">Alcuni dei miei clienti, che con <b className="yellow">sacrificio e dedizione</b>, cercano di fare del loro meglio per essere la miglior versione di sé stessi.
-            <br/>E tu che aspetti? <b className="yellow">Contattami</b> per migliorarti e avere qualcuno al tuo fianco che ti segua costantemente</p>
+            <br/>E tu che aspetti? <b className="yellow">Contattami</b> per migliorarti e avere qualcuno al tuo fianco che ti segua costantemente.</p>
           <ImageGallery
             items={images}
             showPlayButton={true}
@@ -181,7 +173,7 @@ const About = () => {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://api.whatsapp.com/send?phone=+393935730196&text=Ciao Pasquale, vorrei un informazione"
+                  href="https://api.whatsapp.com/send?phone=+393202256455&text=Ciao Pasquale, vorrei un informazione"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
