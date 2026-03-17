@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../assets/Logo/LogoDefinitivo2.svg";
+import logo2 from "../../assets/ImgPresentazione/PasqualeR.png";
 import pasquale from "../../assets/PrimaDopo/pasquale3.jpg";
 import piccolo from "../../assets/PrimaDopo/piccolo2.jpg";
 import prima from "../../assets/gallery/1.jpg";
@@ -98,7 +99,7 @@ const About = () => {
               Ciao, mi chiamo <b className="yellow">Pasquale Iurlandino </b>e vengo da <span className="yellow"> Altamura, Bari.</span>
               <br />
               <br />
-              Molti non mi conosceranno, ma purtroppo o per fortuna, ho un passato da ex sovrappeso, ma grazie al mio passato mi ha portato dove sono oggi. Al fine di voler aiutare le persone a non commettere i mie stessi sbagli, cerco di far intraprendere la strada migliore per loro stessi.
+              Molti non mi conosceranno, ma purtroppo o per fortuna, ho un passato da ex sovrappeso. Ed è proprio il mio passato che mi ha portato dove sono oggi. Al fine di voler aiutare le persone a non commettere i mie stessi sbagli, cerco di far intraprendere la strada migliore per loro stessi.
               <br />
               <br />
               In qualità di esperto certificato nel mondo del fitness, la mia passione da anni, cerco di motivare e guidare le persone verso il raggiungimento dei loro
@@ -116,7 +117,7 @@ const About = () => {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={logo} className="img-fluid" alt="avatar" />
+              <img src={logo2} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
